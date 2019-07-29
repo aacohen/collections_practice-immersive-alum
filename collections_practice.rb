@@ -29,7 +29,7 @@ end
 def kesha_maker(array)
   new_array = []
 array.each do |value|
-  value.chars[2] = "$"
-  new_array << value
+  new_value = value.chars[2].sub("$")
+  new_array << new_value
 end
 end
