@@ -23,5 +23,5 @@ array.insert(destination_index, element_to_remove)
 end
 
 def reverse_array(array)
-array.sort { |a,b| -a <=> b }
+array.reverse
 end
