@@ -32,3 +32,4 @@ array.each do |value|
   value.character[2] = "$"
   #new_array <<
 end
+end
