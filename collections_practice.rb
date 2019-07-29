@@ -11,5 +11,7 @@ array.sort {|a,b| a.length <=> b.length}
 end
 
 def swap_elements(array)
-
+element_to_remove = array[2]
+array.delete_at(2)
+array.insert(1,element_to_remove)
 end
